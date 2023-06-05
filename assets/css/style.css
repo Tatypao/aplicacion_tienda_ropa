@@ -23,6 +23,13 @@
   color: #9C9C9C;
 }
 
+.header--2__title {
+  font-size: 46px;
+  font-weight: 400px;
+  font-family: "Libre Caslon Display", serif;
+  color: #2D7064;
+}
+
 .black {
   height: 898px;
 }
@@ -31,6 +38,10 @@
   font-size: 14px;
   color: #9C9C9C;
   padding: 15px 0 12px;
+}
+
+.header--2 {
+  padding: 24px 0 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
