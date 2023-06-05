@@ -1,5 +1,16 @@
 @use '../vars/vars' as v;
 
+.header--2__title{
+    font-size: 46px;
+    font-weight: 400px;
+    font-family: v.$font-family-title-heard;
+    color: #2D7064;
+}
+.intro--title{
+    font-family: v.$font-family-primary;
+    font-size: 306px;
+    font-weight: 700;
+}
 .black--img__1{
     max-width: 477px;
     width: 100%;
@@ -17,10 +28,4 @@
 }
 .header--1 a{
     color: #9C9C9C;
-}
-.header--2__title{
-    font-size: 46px;
-    font-weight: 400px;
-    font-family: v.$font-family-title-heard;
-    color: #2D7064;
 }
