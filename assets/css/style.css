@@ -69,4 +69,12 @@
   margin: 0 auto;
 }
 
+.main {
+  max-width: 1920px;
+}
+
+.intro {
+  margin-bottom: 89px;
+}
+
 /*# sourceMappingURL=style.css.map */
