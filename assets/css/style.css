@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;700&display=swap");
 .header--1 a {
@@ -22,8 +22,8 @@
 .intro--title {
   font-family: "Fraunces, serif";
   font-size: 306px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: -11px;
 }
 
 .intro--p__1 {
@@ -99,6 +99,12 @@
 
 .header--1__icons, .header--2__menu {
   padding-left: 4%;
+}
+
+.intro--cont__title {
+  max-width: 1447px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .black {
