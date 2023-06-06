@@ -75,6 +75,19 @@
   font-family: "Fraunces, serif";
 }
 
+.description--title {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Anybody, cursive";
+}
+
+.description--text {
+  font-family: "Fraunces, serif";
+  font-size: 16px;
+  font-weight: 400;
+  color: #747474;
+}
+
 .header--1 {
   font-size: 14px;
   color: #9C9C9C;
@@ -127,6 +140,13 @@
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+}
+
+.description--cont {
+  max-width: 1518px;
+  width: 100%;
+  margin: 0 auto;
+  height: 178px;
 }
 
 .main {

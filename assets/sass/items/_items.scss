@@ -63,4 +63,14 @@
     font-weight: 400;
     font-family: v.$font-family-primary;
 }
-
+.description--title{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: v.$font-family-secondary;
+}
+.description--text{
+    font-family: v.$font-family-primary;
+    font-size: 16px;
+    font-weight: 400;
+    color: #747474;
+}
