@@ -67,10 +67,13 @@
     font-size: 32px;
     font-weight: 400;
     font-family: v.$font-family-secondary;
+    letter-spacing: -2px;
 }
 .description--text{
     font-family: v.$font-family-primary;
     font-size: 16px;
     font-weight: 400;
     color: #747474;
+    margin: 0;
+    padding-right: 69px;
 }
