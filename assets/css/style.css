@@ -187,6 +187,12 @@
   gap: 26px;
 }
 
+.look--title {
+  max-width: 1796px;
+  width: 100%;
+  margin: 0 auto 76px auto;
+}
+
 .main {
   max-width: 1920px;
 }
