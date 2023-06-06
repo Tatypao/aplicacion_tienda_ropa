@@ -1,9 +1,16 @@
 @use '../vars/vars' as v;
 
+
 .header--1 a{
     color: #9C9C9C;
 }
-.header--2__title{
+.header--2__menu a{
+    color: #191919;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+.header--2__title span{
     font-size: 46px;
     font-weight: 400px;
     font-family: v.$font-family-title-heard;
@@ -24,6 +31,11 @@
     font-size: 18px;
     font-weight: 300;
     color: #9C9C9C;
+}    
+.header--2__icons i{
+    color: #191919;
+    width: 15px;
+    height: 16px;
 }
 .black--img__1{
     max-width: 477px;

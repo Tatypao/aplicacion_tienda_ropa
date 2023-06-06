@@ -1,10 +1,13 @@
-.black{
-    height: 898px;
-}
+
 .header--1{
     font-size: 14px;
     color: #9C9C9C;
     padding: 15px 0 12px;
+}
+.header--1__icons{
+    gap: 20px;
+    height: 8px;
+    width: 8px;
 }
 .header--2{
     padding: 24px 0 22px;
@@ -13,4 +16,20 @@
     max-width: 663px;
     width: 100%;
     margin: 0 auto;
+}    
+.header--2__menu{
+    gap: 30px;
+}
+.header--2__icons{
+    gap: 25px;
+}
+.header--1__talk, .header--2__icons{
+    padding-right: 4%;
+}
+.header--1__icons, .header--2__menu{
+    padding-left: 4%;
+}
+
+.black{
+    height: 898px;
 }
