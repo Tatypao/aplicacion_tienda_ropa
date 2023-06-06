@@ -63,6 +63,18 @@
   height: 505px;
 }
 
+.black--number {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Fraunces, serif";
+}
+
+.black--text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Fraunces, serif";
+}
+
 .header--1 {
   font-size: 14px;
   color: #9C9C9C;
