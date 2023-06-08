@@ -124,7 +124,6 @@
 .lookbooks {
   font-size: 14px;
   font-weight: 300;
-  margin: 0;
 }
 
 .card-title {
@@ -136,12 +135,14 @@
 .card-text {
   font-size: 13px;
   font-weight: 300;
+  margin-top: 77px;
 }
 
 .look--btn {
   font-size: 15px;
   font-weight: 700;
   text-decoration: underline;
+  padding: 0;
 }
 
 .latest--link a {
