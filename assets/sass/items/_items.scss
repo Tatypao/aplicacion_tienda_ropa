@@ -81,12 +81,18 @@
     font-family: v.$font-family-primary;
     font-size: 36px;
     font-weight: 700;
-    line-height: 50.4px;
+    line-height: 47px;
 }
 .arrivals--p__2{
     font-family: v.$font-family-primary;
     font-size: 23px;
     font-weight: 300;
+}
+.arrivals--btn{
+    margin-left: 66px;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 15px 30px;
 }
 .arrivals--img__primary{
     max-width: 537px;
