@@ -121,6 +121,10 @@
   height: 477px;
 }
 
+.footer--col a {
+  text-decoration: none;
+}
+
 .header--1 {
   font-size: 14px;
   color: #9C9C9C;
@@ -195,6 +199,7 @@
 
 .main {
   max-width: 1920px;
+  background: #FFFFFF;
 }
 
 .intro {
@@ -207,6 +212,18 @@
 
 .arrivals {
   margin-bottom: 138px;
+}
+
+.latest {
+  background-image: url("//assets/img/2023.png");
+  width: 1981px;
+  height: 1106px;
+  margin-top: 89px;
+}
+
+.footer {
+  background-color: #E8EEE7;
+  height: 593px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 .main{
     max-width: 1920px;
+    background: #FFFFFF;
 }
 .intro{
     margin-bottom: 89px;
@@ -9,4 +10,15 @@
 }
 .arrivals{
     margin-bottom: 138px;
+}
+
+.latest{
+    background-image: url("//assets/img/2023.png");
+    width: 1981px;
+    height: 1106px;
+    margin-top: 89px;
+}
+.footer{
+    background-color:  #E8EEE7;
+    height: 593px;
 }
