@@ -285,7 +285,11 @@
 }
 
 .intro {
+  height: 1106px;
   margin-bottom: 89px;
+  padding-top: 146px;
+  background-image: url("../img/Trends.png");
+  background-repeat: no-repeat;
 }
 
 .description {
