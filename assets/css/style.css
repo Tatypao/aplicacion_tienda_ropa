@@ -12157,9 +12157,11 @@ textarea.form-control-lg {
 }
 
 .description--paragraph {
+  background-image: url("../img/tags.png");
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+  height: 555px;
 }
 
 .description--cont {
