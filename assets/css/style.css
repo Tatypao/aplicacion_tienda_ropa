@@ -12124,10 +12124,6 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
-.black {
-  height: 898px;
-}
-
 .description--paragraph {
   max-width: 1920px;
   width: 100%;
@@ -12196,7 +12192,12 @@ textarea.form-control-lg {
     height: 100%;
     background-size: contain;
     background-position: center 77%;
+    margin: 0;
   }
+}
+
+.black {
+  height: 898px;
 }
 
 .description {
