@@ -17,6 +17,9 @@
     max-width: 663px;
     width: 100%;
     margin: 0 auto;
+    @include media-breakpoint-down(sm){
+        width: 80%;
+    }
 }    
 .header--2__menu{
     gap: 30px;

@@ -27,19 +27,26 @@
     font-weight: 600;
     letter-spacing: -11px;
     @include media-breakpoint-down(sm){
-        font-size: 20px;
+        font-size: 60px;
+        letter-spacing: 0;
     }
 }
 .intro--p__1{
     font-family: v.$font-family-primary;
     font-size: 32px;
     font-weight: 700;
+    @include media-breakpoint-down(sm){
+        font-size: 14px;
+    }
 }
 .intro--p__2{
     font-family: v.$font-family-primary;
     font-size: 18px;
     font-weight: 300;
     color: v.$color-secondary;
+    @include media-breakpoint-down(sm){
+        font-size: 10px;
+    }
 }    
 .black--img__1{
     max-width: 477px;

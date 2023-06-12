@@ -13,6 +13,13 @@
     background-image: url("../img/Trends.png");
     background-repeat: no-repeat;
     background-position: center 15%;
+    @include media-breakpoint-down(sm){
+        padding-top: 34px;
+        height: 100%;
+        background-size: contain;
+        background-position: center 77%;
+     
+    }
 }
 .description{
     margin: 235px 0 204px 0;
