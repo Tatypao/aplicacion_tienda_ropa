@@ -19,6 +19,12 @@
   color: #2D7064;
 }
 
+.header--2__icons i {
+  color: #191919;
+  width: 17px;
+  height: 16px;
+}
+
 .intro--title {
   font-family: "Fraunces, serif";
   font-size: 306px;
@@ -37,12 +43,6 @@
   font-size: 18px;
   font-weight: 300;
   color: #9C9C9C;
-}
-
-.header--2__icons i {
-  color: #191919;
-  width: 15px;
-  height: 16px;
 }
 
 .black--img__1 {
@@ -86,7 +86,7 @@
   font-family: "Fraunces, serif";
   font-size: 16px;
   font-weight: 400;
-  color: #747474;
+  color: #9C9C9C;
   margin: 0;
   padding-right: 69px;
 }
@@ -155,7 +155,7 @@
 
 .latest--link a {
   text-decoration: none;
-  color: #000000;
+  color: #191919;
   font-size: 26px;
   font-weight: 700;
 }
@@ -165,7 +165,7 @@
 }
 
 .latest--link small {
-  color: #999999;
+  color: #9C9C9C;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -192,8 +192,12 @@
   font-size: 17px;
 }
 
+.footer--cont__col p {
+  color: #555555;
+}
+
 .footer--pay p {
-  color: #959595;
+  color: #555555;
 }
 
 .header--1 {
@@ -297,6 +301,8 @@
 }
 
 .intro {
+  max-width: 1920px;
+  width: 100%;
   height: 1106px;
   margin-bottom: 89px;
   padding-top: 146px;
