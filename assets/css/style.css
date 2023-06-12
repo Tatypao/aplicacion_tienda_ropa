@@ -11939,6 +11939,12 @@ textarea.form-control-lg {
   height: 505px;
 }
 
+@media (max-width: 575.98px) {
+  .black img {
+    width: 100%;
+  }
+}
+
 .black--number {
   font-size: 18px;
   font-weight: 300;
@@ -11951,11 +11957,31 @@ textarea.form-control-lg {
   font-family: "Fraunces, serif";
 }
 
+@media (max-width: 575.98px) {
+  .description--paragraph img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .description--cont__number img {
+    width: 30%;
+  }
+}
+
 .description--title {
   font-size: 32px;
   font-weight: 400;
   font-family: "Anybody, cursive";
   letter-spacing: -2px;
+}
+@media (max-width: 575.98px) {
+  .description--title {
+    letter-spacing: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
 }
 
 .description--text {
@@ -11965,6 +11991,12 @@ textarea.form-control-lg {
   color: #9C9C9C;
   margin: 0;
   padding-right: 69px;
+}
+@media (max-width: 575.98px) {
+  .description--text {
+    padding: 0;
+    font-size: 12px;
+  }
 }
 
 .arrivals--p__1 {
@@ -12137,9 +12169,20 @@ textarea.form-control-lg {
   max-height: 178px;
   margin-top: 295px;
 }
+@media (max-width: 575.98px) {
+  .description--cont {
+    max-height: 100%;
+    margin-top: 20px;
+  }
+}
 
 .description--cont__number {
   gap: 26px;
+}
+@media (max-width: 575.98px) {
+  .description--cont__number {
+    margin-bottom: 20px;
+  }
 }
 
 .arrivals--p {
@@ -12199,9 +12242,19 @@ textarea.form-control-lg {
 .black {
   height: 898px;
 }
+@media (max-width: 575.98px) {
+  .black {
+    height: 100%;
+  }
+}
 
 .description {
   margin: 235px 0 204px 0;
+}
+@media (max-width: 575.98px) {
+  .description {
+    margin: 20px 0;
+  }
 }
 
 .arrivals {

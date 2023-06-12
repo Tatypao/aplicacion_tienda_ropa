@@ -23,9 +23,15 @@
 }
 .black{
     height: 898px;
+    @include media-breakpoint-down(sm){
+        height: 100%;
+    }
 }
 .description{
     margin: 235px 0 204px 0;
+    @include media-breakpoint-down(sm){
+        margin: 20px 0;
+    }
 }
 .arrivals{
     margin-bottom: 138px;

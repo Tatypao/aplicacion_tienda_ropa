@@ -49,10 +49,17 @@
     margin: 0 auto;
     max-height: 178px;
     margin-top: 295px;
+    @include media-breakpoint-down(sm){
+        max-height: 100%;
+        margin-top: 20px;
+    }
 }
 
 .description--cont__number{
     gap: 26px;
+    @include media-breakpoint-down(sm){
+       margin-bottom: 20px;
+    }
 }
 .arrivals--p{
     padding: 0 66px;
