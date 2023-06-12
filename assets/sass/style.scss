@@ -1,8 +1,10 @@
-@forward 'items/items';
-@forward 'modules/modules';
-@forward 'layout/layout';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'items/items';
+@import 'modules/modules';
+@import 'layout/layout';
+@import 'layout/mediaqueris';
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;700&display=swap');
 
-@include media-breakpoint-down(sm) 
+

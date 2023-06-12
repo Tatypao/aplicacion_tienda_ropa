@@ -1,5 +1,5 @@
 @use '../vars/vars' as v;
-
+@use '../../../node_modules/bootstrap/scss/mixins';
 
 .header--1 a{
     color: v.$color-secondary;
@@ -26,6 +26,9 @@
     font-size: 306px;
     font-weight: 600;
     letter-spacing: -11px;
+    @include media-breakpoint-down(sm){
+        font-size: 20px;
+    }
 }
 .intro--p__1{
     font-family: v.$font-family-primary;
@@ -136,15 +139,18 @@
     font-weight: 700;
 
 }
-.latest--link a{
-    margin-bottom: 40px;
+.latest--link {
+    a{
+        margin-bottom: 40px;
+    }
+    small{
+        color: v.$color-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
 }
-.latest--link small{
-    color: v.$color-secondary;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
+
 .latest--cont__text h1{
     writing-mode: vertical-rl;
     font-size: 86px;

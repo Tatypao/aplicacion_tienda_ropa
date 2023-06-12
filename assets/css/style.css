@@ -1,9 +1,9 @@
-/* Error: Undefined mixin.
+/* Error: Can't find stylesheet to import.
  *   ,
- * 8 | @include media-breakpoint-down(sm) 
- *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ * 5 | @import 'layout/mediaqueris';
+ *   |         ^^^^^^^^^^^^^^^^^^^^
  *   '
- *   assets\sass\style.scss 8:1  root stylesheet */
+ *   assets\sass\style.scss 5:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 8 \2502  @include media-breakpoint-down(sm) \d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\sass\\style.scss 8:1  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import 'layout/mediaqueris';\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\sass\\style.scss 5:9  root stylesheet";
 }
