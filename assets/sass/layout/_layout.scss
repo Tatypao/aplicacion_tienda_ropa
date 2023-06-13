@@ -46,6 +46,10 @@
     height: 1106px;
     margin-top: 89px;
     padding-top: 243px;
+    @include media-breakpoint-down(sm){
+        height: 100%;
+        padding: 0;
+    }
 }
 .footer{
     background-color: v.$background-color-footer;

@@ -77,17 +77,20 @@
     width: 100%;
     margin: 0 auto 76px auto;
 }
-.latest--cont{
-    bottom: 135px;
+.lastest--new__cont{
+    @include media-breakpoint-down(sm){
+        flex-direction: column-reverse;
+     }
 }
 .latest--cont__img{
-    min-width: 387px;
     height: 580px;
 }
 .latest--cont__text{
     width: 86px;
     max-height: 571px;
-    height: 100%;
+    @include media-breakpoint-down(sm){
+        width: 100%;
+     }
 }
 .footer--pay{
     margin: 101px 0 79px 0;

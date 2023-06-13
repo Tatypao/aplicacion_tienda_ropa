@@ -12085,6 +12085,13 @@ textarea.form-control-lg {
   height: 100%;
   margin: 0;
 }
+@media (max-width: 575.98px) {
+  .latest--cont__text h1, .latest--cont__text .h1 {
+    writing-mode: horizontal-tb;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+}
 
 .footer--cont__col h3, .footer--cont__col .h3 {
   margin-bottom: 30px;
@@ -12204,19 +12211,24 @@ textarea.form-control-lg {
   margin: 0 auto 76px auto;
 }
 
-.latest--cont {
-  bottom: 135px;
+@media (max-width: 575.98px) {
+  .lastest--new__cont {
+    flex-direction: column-reverse;
+  }
 }
 
 .latest--cont__img {
-  min-width: 387px;
   height: 580px;
 }
 
 .latest--cont__text {
   width: 86px;
   max-height: 571px;
-  height: 100%;
+}
+@media (max-width: 575.98px) {
+  .latest--cont__text {
+    width: 100%;
+  }
 }
 
 .footer--pay {
@@ -12279,6 +12291,12 @@ textarea.form-control-lg {
   height: 1106px;
   margin-top: 89px;
   padding-top: 243px;
+}
+@media (max-width: 575.98px) {
+  .latest {
+    height: 100%;
+    padding: 0;
+  }
 }
 
 .footer {
