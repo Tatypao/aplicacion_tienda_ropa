@@ -218,7 +218,7 @@
 }
 .latest--link {
     a{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         text-decoration: none;
         color: v.$color-primary;
         font-size: 26px;
@@ -234,19 +234,22 @@
         letter-spacing: 2px;
     }
 }
-
-.latest--cont__text{
-    h1{
-        writing-mode: vertical-rl;
-        font-size: 86px;
-        font-weight: 700;
-        height: 100%;
-        margin: 0;
-        @include media-breakpoint-down(sm){
-            writing-mode: horizontal-tb;
-            font-size: 50px;
-            margin-bottom: 10px;
-        }
+.latest--cont__img{
+    img{
+        max-width: 387px;
+        max-height: 580px;
+    }
+}
+.latest--text{
+    writing-mode: vertical-rl;
+    font-size: 86px;
+    font-weight: 700;
+    height: 100%;
+    margin: 0;
+    @include media-breakpoint-down(sm){
+        writing-mode: horizontal-tb;
+        font-size: 50px;
+        margin-bottom: 10px;
     }
 }
 .footer--cont__col h3{

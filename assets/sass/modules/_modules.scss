@@ -80,17 +80,8 @@
         margin: 40px 0;
      }
 }
-.lastest--new__cont{
-    @include media-breakpoint-down(sm){
-        flex-direction: column-reverse;
-     }
-}
-.latest--cont__text{
-    width: 86px;
-    max-height: 571px;
-    @include media-breakpoint-down(sm){
-        width: 100%;
-     }
+.latest--cont{
+    margin-top: 70px;
 }
 .footer--pay{
     margin: 101px 0 79px 0;

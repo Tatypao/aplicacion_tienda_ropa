@@ -12127,7 +12127,7 @@ textarea.form-control-lg {
 }
 
 .latest--link a {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-decoration: none;
   color: #191919;
   font-size: 26px;
@@ -12145,7 +12145,12 @@ textarea.form-control-lg {
   letter-spacing: 2px;
 }
 
-.latest--cont__text h1, .latest--cont__text .h1 {
+.latest--cont__img img {
+  max-width: 387px;
+  max-height: 580px;
+}
+
+.latest--text {
   writing-mode: vertical-rl;
   font-size: 86px;
   font-weight: 700;
@@ -12153,7 +12158,7 @@ textarea.form-control-lg {
   margin: 0;
 }
 @media (max-width: 575.98px) {
-  .latest--cont__text h1, .latest--cont__text .h1 {
+  .latest--text {
     writing-mode: horizontal-tb;
     font-size: 50px;
     margin-bottom: 10px;
@@ -12283,20 +12288,8 @@ textarea.form-control-lg {
   }
 }
 
-@media (max-width: 575.98px) {
-  .lastest--new__cont {
-    flex-direction: column-reverse;
-  }
-}
-
-.latest--cont__text {
-  width: 86px;
-  max-height: 571px;
-}
-@media (max-width: 575.98px) {
-  .latest--cont__text {
-    width: 100%;
-  }
+.latest--cont {
+  margin-top: 70px;
 }
 
 .footer--pay {
@@ -12363,7 +12356,6 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .latest {
     height: 100%;
-    padding: 0;
   }
 }
 
