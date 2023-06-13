@@ -12026,6 +12026,11 @@ textarea.form-control-lg {
   width: 100%;
   height: 953px;
 }
+@media (max-width: 575.98px) {
+  .arrivals--img__primary {
+    height: inherit;
+  }
+}
 
 .arrivals--h1 {
   writing-mode: vertical-lr;
@@ -12033,6 +12038,14 @@ textarea.form-control-lg {
   font-weight: 700;
   margin: 0;
   width: 100%;
+}
+@media (max-width: 575.98px) {
+  .arrivals--h1 {
+    writing-mode: horizontal-tb;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
 }
 
 .arrivals--img__new {
@@ -12044,6 +12057,11 @@ textarea.form-control-lg {
   max-width: 269px;
   width: 100%;
   height: 477px;
+}
+@media (max-width: 575.98px) {
+  .arrivals--img__secondary {
+    height: inherit;
+  }
 }
 
 .lookbooks {
@@ -12207,6 +12225,12 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .description--cont__number {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .arrivals--img {
+    flex-direction: column-reverse;
   }
 }
 

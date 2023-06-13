@@ -67,7 +67,11 @@
        margin-bottom: 20px;
     }
 }
-
+.arrivals--img{
+    @include media-breakpoint-down(sm){
+        flex-direction: column-reverse;
+     }
+}
 .look--title{
     max-width: 1796px;
     width: 100%;
