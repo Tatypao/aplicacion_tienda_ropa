@@ -12015,7 +12015,7 @@ textarea.form-control-lg {
 }
 
 .arrivals--btn {
-  margin-left: 66px;
+  margin-left: 45px;
   font-size: 17px;
   border-radius: 3px;
   padding: 15px 30px;
@@ -12200,10 +12200,6 @@ textarea.form-control-lg {
   .description--cont__number {
     margin-bottom: 20px;
   }
-}
-
-.arrivals--p {
-  padding: 0 66px;
 }
 
 .look--title {
