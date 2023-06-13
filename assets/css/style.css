@@ -12149,19 +12149,25 @@ textarea.form-control-lg {
   max-width: 387px;
   max-height: 580px;
 }
-
-.latest--text {
+@media (max-width: 575.98px) {
+  .latest--cont__img img {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.latest--cont__img .latest--text {
   writing-mode: vertical-rl;
   font-size: 86px;
   font-weight: 700;
-  height: 100%;
   margin: 0;
 }
 @media (max-width: 575.98px) {
-  .latest--text {
+  .latest--cont__img .latest--text {
     writing-mode: horizontal-tb;
-    font-size: 50px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -12288,8 +12294,10 @@ textarea.form-control-lg {
   }
 }
 
-.latest--cont {
-  margin-top: 70px;
+@media (max-width: 575.98px) {
+  .latest--cont__img {
+    flex-direction: column-reverse;
+  }
 }
 
 .footer--pay {
