@@ -170,16 +170,16 @@
     text-decoration: underline;
     padding: 0;
 }
-.latest--link a{
-    text-decoration: none;
-    color: v.$color-primary;
-    font-size: 26px;
-    font-weight: 700;
-
-}
 .latest--link {
     a{
         margin-bottom: 40px;
+        text-decoration: none;
+        color: v.$color-primary;
+        font-size: 26px;
+        font-weight: 700;
+        @include media-breakpoint-down(sm){
+            font-size: 21px;
+        }
     }
     small{
         color: v.$color-secondary;

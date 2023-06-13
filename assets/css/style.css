@@ -12062,14 +12062,16 @@ textarea.form-control-lg {
 }
 
 .latest--link a {
+  margin-bottom: 40px;
   text-decoration: none;
   color: #191919;
   font-size: 26px;
   font-weight: 700;
 }
-
-.latest--link a {
-  margin-bottom: 40px;
+@media (max-width: 575.98px) {
+  .latest--link a {
+    font-size: 21px;
+  }
 }
 .latest--link small, .latest--link .small {
   color: #9C9C9C;
@@ -12215,10 +12217,6 @@ textarea.form-control-lg {
   .lastest--new__cont {
     flex-direction: column-reverse;
   }
-}
-
-.latest--cont__img {
-  height: 580px;
 }
 
 .latest--cont__text {
