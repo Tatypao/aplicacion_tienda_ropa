@@ -144,6 +144,11 @@
     font-size: 17px;
     border-radius: 3px;
     padding: 15px 30px;
+    @include media-breakpoint-down(sm){
+        font-size: 12px;
+        margin: 0;
+        padding: 10px;
+    }
 }
 .arrivals--img__primary{
     max-width: 537px;
