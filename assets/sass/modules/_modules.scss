@@ -76,6 +76,9 @@
     max-width: 1796px;
     width: 100%;
     margin: 0 auto 76px auto;
+    @include media-breakpoint-down(sm){
+        margin: 40px 0;
+     }
 }
 .lastest--new__cont{
     @include media-breakpoint-down(sm){
