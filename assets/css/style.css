@@ -12045,13 +12045,13 @@ textarea.form-control-lg {
 .card-title {
   font-size: 48px;
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -5px;
 }
 
 .card-text {
   font-size: 13px;
   font-weight: 300;
-  margin-top: 77px;
+  margin-top: 50px;
 }
 
 .look--btn {
@@ -12278,6 +12278,7 @@ textarea.form-control-lg {
   width: 100%;
   height: 1106px;
   margin-top: 89px;
+  padding-top: 243px;
 }
 
 .footer {
