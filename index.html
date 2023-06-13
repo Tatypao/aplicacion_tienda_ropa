@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicacion_tienda_ropa </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -45,7 +44,7 @@
             </div>
           </div>
         </section>
-        <section class="intro">
+        <section class="intro container-fluid position-relative">
           <div class="intro--cont__title d-flex justify-content-center">
             <h1 class="intro--title">Fashionista</h1>
           </div>
@@ -58,20 +57,20 @@
         </section>
         <section class="black container-fluid">
           <div class="row">
-            <div class="col d-flex flex-column justify-content-end align-items-center">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-end align-items-center">
               <div>
                 <p class=" mb-4 black--number">01</p>
                 <img class="black--img__1" src="assets/img/1.png" alt="chica">
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-4">
               <div class="d-flex justify-content-between">
                 <p class=" mb-4 black--number">02</p>
                 <p class=" mb-4 black--text">BLACK COMBO SET</span>
               </div>
               <img class="black--img__2" src="assets/img/1.png" alt="">
             </div>
-            <div class="col d-flex flex-column justify-content-end align-items-center">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-end align-items-center">
               <div>
                 <p class=" mb-4 black--number">03</p>
                 <img class="black--img__3" src="assets/img/1.png" alt="">
@@ -80,27 +79,25 @@
           </div>
         </section>
         <section class="description container-fluid">
-          <div class="description--paragraph">
-            <img class="w-100" src="assets/img/tags.png" alt="">
-          </div>
+          <div class="description--paragraph"></div>
           <div class="container-fluid">
             <div class="row description--cont">
-              <div class="col description--cont__number d-flex">
-                <img src="assets/img/01.png" alt="">
+              <div class="col-12 col-md-4 description--cont__number d-flex">
+                <img src="assets/img/01.svg" alt="">
                 <div>
                   <p class="description--title">Free Delivery</p>
                   <p class="description--text">Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.</p>
                 </div>
               </div>
-              <div class="col description--cont__number d-flex">
+              <div class="col-12 col-md-4 description--cont__number d-flex">
                 <img src="assets/img/02.svg" alt="">
                 <div>
                   <p class="description--title">100% secure</p>
                   <p class="description--text">Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.</p>
                 </div>
               </div>
-              <div class="col description--cont__number d-flex">
-                <img src="assets/img/03.png" alt="">
+              <div class="col-12 col-md-4 description--cont__number d-flex">
+                <img src="assets/img/03.svg" alt="">
                 <div>
                   <p class="description--title">Quality guarantee</p>
                   <p class="description--text">Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.</p>
@@ -112,12 +109,12 @@
         <section class="arrivals container-fluid">
           <div class="row">
             <div class="col arrivals--cont d-flex flex-column justify-content-center">
-              <div class="pe-5">
+              <div class="arrivals--p">
                 <p class="arrivals--p__1 mb-5" >Feugiat tellus metus lacus vulputate sed nec, feugiat at. Ac ultrices facilisis suspendisse nec sagittis, mauris quisque pellentesque tincidunt. </p>
                 <p class="arrivals--p__2 mb-5" >Elit, volutpat donec et risus. Sit pellentesque tincidunt tortor, erat tortor eget quis sapien. Nunc tellus egestas nulla ullamcorper pellentesque molestie nec. Gravida eget quam diam non. Iaculis pretium platea magna sed diam diam orci enim. Scelerisque accumsan quam sit nibh in porta non rutrum orci.</p>
               </div>
               <div>
-                <button type="button" class="btn btn-outline-dark  btn-lg fs-6">Shop it now <i class="bi bi-arrow-right"></i></button>
+                <button type="button" class="btn arrivals--btn btn-outline-dark text-uppercase btn-lg fs-6">Shop it now <i class="bi bi-arrow-right"></i></button>
               </div>
             </div>
             <div class="col d-flex">
@@ -131,41 +128,144 @@
         </section>
         <section class="look">
           <div class="look--title">
-            <img src="assets/img/LookBooks 2023.png" alt="">
+            <img class="w-100" src="assets/img/LookBooks 2023.png" alt="">
           </div>
-          <div class="d-flex justify-content-around">
-            <div class="" style="width: 18rem;">
+          <div class="row d-flex justify-content-around">
+            <div class="col px-5 mx-5">
               <img src="assets/img/3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p>LOOKBOOKS</p>
-                <h5 class="card-title">Boho wear</h5>
-                <h5 class="card-title">Lookbook 2021</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn">READ MORE</a>
+              <div class="card-body mt-5">
+                <p class="lookbooks">LOOKBOOKS</p>
+                <h6 class="card-title text-uppercase">Boho wear <br> Lookbook 2021</h6>
+                <p class="card-text">Eu, est arcu, vestibulum egestas quam ac sed egestas aliquet. Diam massa magnis mi, tortor, sit. Rhoncus phasellus habitant at turpis proin nibh suspendisse. Sodales parturient quisque purus pharetra massa et cras nulla commodo. Et condimentum egestas adipiscing nibh.</p>
+                <a href="#" class="btn look--btn">READ MORE</a>
               </div>
             </div>
-            <div class="" style="width: 18rem;">
-              <div class="card-body">
-                <p>LOOKBOOKS</p>
-                <h5 class="card-title">Boho wear</h5>
-                <h5 class="card-title">Lookbook 2021</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn">READ MORE</a>
+            <div class="col px-5 mx-5">
+              <div class="card-body mb-5">
+                <p class="lookbooks">LOOKBOOKS</p>
+                <h6 class="card-title text-uppercase">Boho wear <br> Lookbook 2021</h6>
+                <p class="card-text">Eu, est arcu, vestibulum egestas quam ac sed egestas aliquet. Diam massa magnis mi, tortor, sit. Rhoncus phasellus habitant at turpis proin nibh suspendisse. Sodales parturient quisque purus pharetra massa et cras nulla commodo. Et condimentum egestas adipiscing nibh.</p>
+                <a href="#" class="btn look--btn">READ MORE</a>
               </div>
               <img src="assets/img/3.png" class="card-img-top" alt="...">
             </div>
-            <div class="" style="width: 18rem;">
+            <div class="col px-5 mx-5">
               <img src="assets/img/3-1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p>LOOKBOOKS</p>
-                <h5 class="card-title">Boho wear</h5>
-                <h5 class="card-title">Lookbook 2021</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn">READ MORE</a>
+              <div class="card-body mt-5">
+                <p class="lookbooks">LOOKBOOKS</p>
+                <h6 class="card-title text-uppercase">Boho wear <br> Lookbook 2021</h6>
+                <p class="card-text">Eu, est arcu, vestibulum egestas quam ac sed egestas aliquet. Diam massa magnis mi, tortor, sit. Rhoncus phasellus habitant at turpis proin nibh suspendisse. Sodales parturient quisque purus pharetra massa et cras nulla commodo. Et condimentum egestas adipiscing nibh.</p>
+                <a href="#" class="btn look--btn">READ MORE</a>
               </div>
             </div>
           </div>
         </section>
+        <section class="latest container-fluid d-flex justify-content-center">
+          <div class="row latest--cont w-100">
+            <div class="col-12 col-md-4 latest--link d-flex justify-content-center flex-column align-items-center">
+              <div>
+                <a href="">
+                  <p class="text-capitalize m-0">top 10 casual look ideas to <br> dress up your kids</p>
+                  <small>TIPS & TRICKS</small>
+                </a>
+                <a href="">
+                  <p class="text-capitalize m-0">Latest trends of wearing <br> street wears supremely</p>
+                  <small>TRENDING</small>
+                </a>
+                <a href="">
+                  <p class="text-capitalize m-0">types of comfortable clothes <br> ideas for women</p>
+                  <small>INSPIRATION</small>
+                </a>
+              </div>
+            </div>
+            <div class="lastest--new__cont col-12 col-md-4 d-flex align-items-center">
+              <div class="latest--cont__img">
+                <img class="w-100" src="assets/img/4.png" alt="">
+              </div>
+              <div class="latest--cont__text">
+                <h1>Latest News</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 latest--link d-flex justify-content-center flex-column">
+              <div>
+                <a href="">
+                  <p class="text-capitalize m-0">top 10 casual look ideas to <br> dress up your kids</p>
+                  <small>TIPS & TRICKS</small>              
+                </a>
+                <a href="">
+                  <p class="text-capitalize m-0">Latest trends of wearing <br> street wears supremely</p>
+                  <small>TRENDING</small>             
+                </a>
+                <a href="">
+                  <p class="text-capitalize m-0">types of comfortable clothes <br> ideas for women</p>
+                  <small>INSPIRATION</small>             
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer container-fluid">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col footer--cont__col">
+                <h3>Customer Service</h3>
+                <div class="footer--col d-flex flex-column">
+                  <a  href="">FAQ</a>
+                  <a href="">Contact</a>
+                  <a href="">Privacy policy</a>
+                  <a href="">Returns & Refunds</a>
+                  <a href="">Cookie guidelines</a>
+                  <a href="">Delivery information</a>
+                </div>
+              </div>
+              <div class="col footer--cont__col">
+                <h3>Customer Service</h3>
+                <div class="footer--col d-flex flex-column">
+                  <a  href="">FAQ</a>
+                  <a href="">Contact</a>
+                  <a href="">Privacy policy</a>
+                  <a href="">Returns & Refunds</a>
+                  <a href="">Cookie guidelines</a>
+                  <a href="">Delivery information</a>
+                </div>
+              </div>
+              <div class="col footer--cont__col">
+                <h3>Customer Service</h3>
+                <div class="footer--col d-flex flex-column">
+                  <a  href="">FAQ</a>
+                  <a href="">Contact</a>
+                  <a href="">Privacy policy</a>
+                  <a href="">Returns & Refunds</a>
+                  <a href="">Cookie guidelines</a>
+                  <a href="">Delivery information</a>
+                </div>
+              </div>
+              <div class="col footer--cont__col">
+                <h3>Forever 2018</h3>
+                <p>Cras mattis sit ornare in metus eu amet adipiscing enim. Ullamcorper in orci, ultrices integer eget arcu. Consectetur leo dignissim lacus, lacus sagittis dictumst.</p>
+                <div class="d-flex header--1 header--1__icons">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-type-bold"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row footer--pay">
+              <div class="col d-flex justify-content-start">
+                <p class="">© Copyrights 2021 Ultras. Designed by <span class="text-dark">TemplatesJungle</span></p>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <span>Payment options :
+                  <img src="assets/img/icon-pago/001-visa.png" alt="">
+                  <img src="assets/img/icon-pago/002-mastercard.png" alt="">
+                  <img src="assets/img/icon-pago/003-american-express.png" alt="">
+                </span>
+              </div>
+            </div>
+          </div>
+        </footer>
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

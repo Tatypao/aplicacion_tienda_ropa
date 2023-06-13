@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "live-server",
-    "compile-sass":"sass --watch assets/sass/style.scss assets/css/style.css"
+    "compile-sass": "sass --watch assets/sass/style.scss assets/css/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
 }

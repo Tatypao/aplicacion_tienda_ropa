@@ -1,7 +1,8 @@
+@use '../vars/vars' as v;
 
 .header--1{
     font-size: 14px;
-    color: #9C9C9C;
+    color: v.$color-secondary;
     padding: 15px 0 12px;
 }
 .header--1__icons{
@@ -16,6 +17,9 @@
     max-width: 663px;
     width: 100%;
     margin: 0 auto;
+    @include media-breakpoint-down(sm){
+        width: 80%;
+    }
 }    
 .header--2__menu{
     gap: 30px;
@@ -34,13 +38,18 @@
     width: 100%;
     margin: 0 auto;
 }
-.black{
-    height: 898px;
-}
 .description--paragraph{
+    background-image: url("../img/tags.png");
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
+    height: 555px;
+    @include media-breakpoint-down(sm){
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+    }
+
 }
 .description--cont{
     max-width: 1518px;
@@ -48,17 +57,41 @@
     margin: 0 auto;
     max-height: 178px;
     margin-top: 295px;
+    @include media-breakpoint-down(sm){
+        max-height: 100%;
+        margin-top: 20px;
+    }
 }
 
 .description--cont__number{
     gap: 26px;
+    @include media-breakpoint-down(sm){
+       margin-bottom: 20px;
+    }
+}
+.arrivals--p{
+    padding: 0 66px;
 }
 .look--title{
     max-width: 1796px;
     width: 100%;
     margin: 0 auto 76px auto;
 }
-
+.lastest--new__cont{
+    @include media-breakpoint-down(sm){
+        flex-direction: column-reverse;
+     }
+}
+.latest--cont__text{
+    width: 86px;
+    max-height: 571px;
+    @include media-breakpoint-down(sm){
+        width: 100%;
+     }
+}
+.footer--pay{
+    margin: 101px 0 79px 0;
+}
 
 
 

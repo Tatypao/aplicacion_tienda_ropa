@@ -1,11 +1,11 @@
 @use '../vars/vars' as v;
-
+@use '../../../node_modules/bootstrap/scss/mixins';
 
 .header--1 a{
-    color: #9C9C9C;
+    color: v.$color-secondary;
 }
 .header--2__menu a{
-    color: #191919;
+    color: v.$color-primary;
     text-decoration: none;
     font-size: 17px;
     font-weight: 400;
@@ -16,28 +16,38 @@
     font-family: v.$font-family-title-heard;
     color: #2D7064;
 }
+.header--2__icons i{
+    color: v.$color-primary;
+    width: 17px;
+    height: 16px;
+}
 .intro--title{
     font-family: v.$font-family-primary;
     font-size: 306px;
     font-weight: 600;
     letter-spacing: -11px;
+    @include media-breakpoint-down(sm){
+        font-size: 60px;
+        letter-spacing: 0;
+    }
 }
 .intro--p__1{
     font-family: v.$font-family-primary;
     font-size: 32px;
     font-weight: 700;
+    @include media-breakpoint-down(sm){
+        font-size: 14px;
+    }
 }
 .intro--p__2{
     font-family: v.$font-family-primary;
     font-size: 18px;
     font-weight: 300;
-    color: #9C9C9C;
+    color: v.$color-secondary;
+    @include media-breakpoint-down(sm){
+        font-size: 10px;
+    }
 }    
-.header--2__icons i{
-    color: #191919;
-    width: 15px;
-    height: 16px;
-}
 .black--img__1{
     max-width: 477px;
     width: 100%;
@@ -53,6 +63,13 @@
     width: 100%;
     height: 505px;
 }
+.black{
+    img{
+        @include media-breakpoint-down(sm){
+            width: 100%;
+        }
+    }
+}
 .black--number{
     font-size: 18px;
     font-weight: 300;
@@ -63,30 +80,61 @@
     font-weight: 400;
     font-family: v.$font-family-primary;
 }
+.description--paragraph{
+    img{
+        @include media-breakpoint-down(sm){
+            height: 150px;
+        }
+    }
+}
+.description--cont__number{
+    img{
+        @include media-breakpoint-down(sm){
+            width: 30%;
+        }
+    }
+}
 .description--title{
     font-size: 32px;
     font-weight: 400;
     font-family: v.$font-family-secondary;
     letter-spacing: -2px;
+    @include media-breakpoint-down(sm){
+        letter-spacing: 0;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
 }
 .description--text{
     font-family: v.$font-family-primary;
     font-size: 16px;
     font-weight: 400;
-    color: #747474;
+    color: v.$color-secondary;
     margin: 0;
     padding-right: 69px;
+    @include media-breakpoint-down(sm){
+        padding: 0;
+        font-size: 12px;
+    }
 }
 .arrivals--p__1{
     font-family: v.$font-family-primary;
     font-size: 36px;
     font-weight: 700;
-    line-height: 50.4px;
+    line-height: 47px;
 }
 .arrivals--p__2{
     font-family: v.$font-family-primary;
     font-size: 23px;
     font-weight: 300;
+    line-height: 32px;
+}
+.arrivals--btn{
+    margin-left: 66px;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 15px 30px;
 }
 .arrivals--img__primary{
     max-width: 537px;
@@ -101,4 +149,75 @@
     max-width: 269px;
     width: 100%;
     height: 477px;
+}
+.lookbooks{
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-title{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -5px;
+}
+.card-text{
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.look--btn{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 0;
+}
+.latest--link {
+    a{
+        margin-bottom: 40px;
+        text-decoration: none;
+        color: v.$color-primary;
+        font-size: 26px;
+        font-weight: 700;
+        @include media-breakpoint-down(sm){
+            font-size: 21px;
+        }
+    }
+    small{
+        color: v.$color-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+}
+
+.latest--cont__text{
+    h1{
+        writing-mode: vertical-rl;
+        font-size: 86px;
+        font-weight: 700;
+        height: 100%;
+        margin: 0;
+        @include media-breakpoint-down(sm){
+            writing-mode: horizontal-tb;
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+    }
+}
+.footer--cont__col h3{
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-family: v.$font-family-secondary;
+}
+.footer--col a{
+    text-decoration: none;
+    color: v.$color-text-footer;
+    line-height: 39px;
+    font-size: 17px;
+}
+.footer--cont__col p{
+    color: v.$color-text-footer;
+}
+.footer--pay p{
+    color: v.$color-text-footer;
+  
 }
