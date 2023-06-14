@@ -12127,7 +12127,6 @@ textarea.form-control-lg {
 }
 
 .latest--link a {
-  margin-bottom: 30px;
   text-decoration: none;
   color: #191919;
   font-size: 26px;
@@ -12135,7 +12134,9 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .latest--link a {
-    font-size: 21px;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 15px;
   }
 }
 .latest--link small, .latest--link .small {
@@ -12364,6 +12365,8 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .latest {
     height: 100%;
+    padding: 0;
+    margin: 50px 0;
   }
 }
 
