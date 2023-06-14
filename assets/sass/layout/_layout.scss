@@ -56,4 +56,8 @@
     background-color: v.$background-color-footer;
     height: 593px;
     padding: 88px 140px;
+    @include media-breakpoint-down(sm){
+        height: 100%;
+        padding: 0;
+    }
 }

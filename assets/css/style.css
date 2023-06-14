@@ -12177,12 +12177,23 @@ textarea.form-control-lg {
   font-size: 21px;
   font-family: "Anybody, cursive";
 }
+@media (max-width: 575.98px) {
+  .footer--cont__col h3, .footer--cont__col .h3 {
+    font-size: 20px;
+  }
+}
 
 .footer--col a {
   text-decoration: none;
   color: #555555;
   line-height: 39px;
   font-size: 17px;
+}
+@media (max-width: 575.98px) {
+  .footer--col a {
+    line-height: 20px;
+    font-size: 12px;
+  }
 }
 
 .footer--cont__col p {
@@ -12374,6 +12385,12 @@ textarea.form-control-lg {
   background-color: #E8EEE7;
   height: 593px;
   padding: 88px 140px;
+}
+@media (max-width: 575.98px) {
+  .footer {
+    height: 100%;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
