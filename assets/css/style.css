@@ -11878,6 +11878,11 @@ textarea.form-control-lg {
   font-family: "Libre Caslon Display,serif";
   color: #2D7064;
 }
+@media (max-width: 575.98px) {
+  .header--2__title span {
+    font-size: 30px;
+  }
+}
 
 .header--2__icons i {
   color: #191919;
@@ -12216,10 +12221,6 @@ textarea.form-control-lg {
 
 .header--1__icons {
   gap: 20px;
-}
-
-.header--2 {
-  padding: 24px 0 22px;
 }
 
 .intro--paragraph {

@@ -15,6 +15,9 @@
     font-weight: 400px;
     font-family: v.$font-family-title-heard;
     color: #2D7064;
+    @include media-breakpoint-down(sm){
+        font-size: 30px;
+    }
 }
 .header--2__icons i{
     color: v.$color-primary;
