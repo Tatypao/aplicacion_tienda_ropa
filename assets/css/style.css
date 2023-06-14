@@ -12008,8 +12008,8 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .arrivals--p__1 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 21px;
   }
 }
 
@@ -12022,7 +12022,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .arrivals--p__2 {
     font-size: 12px;
-    line-height: 19px;
+    line-height: 17px;
   }
 }
 
@@ -12226,11 +12226,6 @@ textarea.form-control-lg {
   max-width: 663px;
   width: 100%;
   margin: 0 auto;
-}
-@media (max-width: 575.98px) {
-  .intro--paragraph {
-    width: 80%;
-  }
 }
 
 .header--2__menu {
